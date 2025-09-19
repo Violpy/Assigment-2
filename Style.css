@@ -1,0 +1,230 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("MANHWAA.jpg"); 
+  background-size: cover;   
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;  
+}
+
+
+h1{
+    
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline-block;
+    background: #7a52a8; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#Title h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline-block;
+    background: #7a52a8; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+#about h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    display: inline-block;
+    background: #7a52a8; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+#nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color: rgb(0, 0, 0); 
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    background: #7a52a8; 
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none; 
+    margin: 5px;
+}
+
+#nav a:hover {
+    background: rgb(204, 133, 217); 
+    color: black;
+}
+
+#nav a.active {
+  
+  color: white; 
+    background: #5545a7;
+}
+
+#sidebar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(108, 107, 192, 0.579);
+    color:white;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: 500;
+
+    
+}
+
+
+#content  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(108, 107, 192, 0.579);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    width: 60%;
+    padding-bottom: 80px;
+    
+}
+#sidebar,
+#content {
+    display: inline-block;
+    vertical-align: top; 
+    margin-top: 10px;
+}
+footer {
+  background: #5545a781; 
+  color: white;         
+  text-align: center;  
+  height: 50px;         
+  line-height: 30px;     
+  
+  position: fixed;       
+  bottom: 0;            
+  left: 0;
+  width: 100%;           
+}
+
+#StudentGrades h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline-block;
+    background: #7a52a8; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+#TASK4 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline-block;
+    background: #7a52a8; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.imageS {
+    display: block;
+    margin-left: 90px;
+    
+    border-radius: 10%;
+    margin-top: -10px;
+}
+a {
+  text-decoration: none; 
+  color: #6c6cc0;
+  font-weight: bold; 
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #ff7ee2; 
+}
+
+
+table {
+  width: 50%;
+  margin: 20px 20px 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  background-color: #6c6cc0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.highlight-row {
+  background-color: #ffef96;
+}
+
+#feedback-form {
+  width: 400px;
+  margin: 30px 20px 30px auto;
+  background: rgba(108, 107, 192, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-right: 340px;
+  margin-top: 0px;
+}
+
+#feedback-form label {
+  font-weight: bold;
+
+}
+#feedback-form h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+}
+
+
+#feedback-form select,
+#feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.submit-btn {
+  background: #6c6cc0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #ff7ee2;
+}
